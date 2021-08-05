@@ -1,0 +1,41 @@
+NODEJS Routes review - a collection of multiple endpoints
+
+HTTP Methods uses RESTful method.
+RESTful services - is a service of http or web app which means
+					Representation State Transfer Service - it is an architectural pattern for creating web services (requests/responses from the server).
+					in which HTTP methods comes in.
+					GET, POST, PUT, DELETE
+
+					GET - Retrieve resources/information and not to modify it.
+					POST - Create new resource/information, also can retrieve information but hides it from Searchbar.
+					PUT/PATCH - Updates a resource/information
+
+
+					POSTMAN - we use this app for testing backend.
+
+
+
+
+
+	mini assignment:
+
+	1. Create an array called users with the following initial values:
+
+		users =>
+			username - juan.smith
+			password - juan123smith
+			email - juansmith@mail.com
+
+			username - mary.jane
+			password - mary123janedoe
+			email - maryjane@mail.com
+
+	2. Inside the server, create an endpoint '/users/register' with a method POST that will do the below:
+		a. receives a data from client, with format:
+			{
+				username: <userNameValue>
+				password: <pwdValue>
+				email: <emailValue>
+			}
+		b. process it, by adding this to the array users.
+		c. send the added user as a response back to the client
