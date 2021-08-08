@@ -1,0 +1,43 @@
+API - responsible for receiving requests and sending responses.
+    - Acts as a middleman between client and server
+
+API is for - 
+	- Hides the server beneath an interface layer
+		- hidden complexity makes apps easier to use.
+		- sets the rules of interaction between front and back ends of an application, improving security.
+
+
+REST - architecture style for providing standards of communication.
+		what does REST solve?
+			separate user interface concerns of the client from data storage concerns of the server.
+		Statelessness
+			server does not need to know client state
+		Standardized Communication
+
+NODE.JS works with the environment of our Machine. context were taken out of the browser.
+
+
+Express.js is a web framework of Node JS save you some time and effort
+set of components designed to simplify the web dev process (convention over configuration)
+
+Opinionated web framework ( framework sets the rule)
+ - the framework dictates how it should be used.
+ - speeds up the startup process of app development.
+ - enforces best practices for the framework's use case
+ - lack of flexibility.
+
+ Unopinionated Web Framework (dev sets the rule)
+  - The dev dictates how to use the framework
+  - Offers flexibility to create an application unbound by any use case
+  - No "Right Way" of structuring an application
+  - Abundance of options may be overwhelming.
+
+  Advantages of Express.JS over Node.JS
+   - simplicity of codes makes it easy to learn and use.
+   - offers ready to use componentes for the most common web development needs.
+   - easier routing and processing of HTTP Methods.
+   - 
+
+
+   devhints.io/es6
+   
